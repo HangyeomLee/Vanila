@@ -16,9 +16,16 @@ body {
     object-fit: cover;
     z-index: -1;
   }
-  
-  h2#clock {
+  h2#clock{
     font-size: 4rem;
+  }
+
+  #weather{
+    font-size: 2rem;
+  }
+
+  h2#clock,
+  #weather {
     margin: 2rem 0;
     text-align: center;
     color: #fff;
