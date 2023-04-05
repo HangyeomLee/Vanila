@@ -6,10 +6,10 @@ function getClock(){
     let hours = String(date.getHours()).padStart(2,"0");
     if(hours >12){
         hours = hours - 12;
-        hours = "PM "+hours;
+        hours = hours + " PM";
     }
     else{
-        hours = "AM "+hours;
+        hours = hours + " AM";
     }
     let minutes = String(date.getMinutes()).padStart(2,"0");
     let seconds = String(date.getSeconds()).padStart(2,"0");
